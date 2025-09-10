@@ -69,3 +69,19 @@ coches.remove("Kia")
 nombre = input("Nombre: ")
 print("Hola {nombre}")
 numerofavorito = input("¿Cuál es tu número favorito?")
+
+#TRY EXCEPT
+
+try:
+    print("Hola a todos")
+except:
+    print("Algo ha salido mal")
+else:
+    print("Ha salido todo correcto")
+
+try:
+    print("Hola")
+except:
+    print("Algo ha salido mal")
+finally:
+    print("Ha salido todo correcto")
