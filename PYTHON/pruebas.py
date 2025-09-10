@@ -63,3 +63,9 @@ for elemento in coches:
 coches.append("Hyundai")
 coches.pop(3)
 coches.remove("Kia")
+
+#REPASO INPUT
+
+nombre = input("Nombre: ")
+print("Hola {nombre}")
+numerofavorito = input("¿Cuál es tu número favorito?")
