@@ -32,3 +32,34 @@ if a > 20:
             print("No eres tan grande")
 else:
     print("Adios")
+
+#LISTAS
+
+listacompra = ["Manzana", "Plátano", "Sandía"]
+print(listacompra)
+
+print(len(listacompra)) #va a imprimir la cantidad de elementos que hay en la lista
+print(type(listacompra)) #devuelve el tipo de los elementos de la lista
+
+#WHILE
+
+i = 1
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print("i no es mayor que 5")
+
+#ARRAYS
+
+coches = ["Toyota", "Kia", "Ford"]
+x = coches[0]
+coches[1] = "BMW"
+y = len(coches)
+
+for elemento in coches:
+    print(elemento)
+
+coches.append("Hyundai")
+coches.pop(3)
+coches.remove("Kia")
