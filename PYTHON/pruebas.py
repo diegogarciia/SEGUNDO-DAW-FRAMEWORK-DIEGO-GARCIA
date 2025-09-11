@@ -1,5 +1,5 @@
 print("hola")
-import calculadora as pruebaCalculadora
+import calculadora as cal
 #COMENTARIO
 
 resultado = 10
@@ -11,14 +11,13 @@ a = float(input("dame un numero"))
 a = a + 10
 print(a)
 
-
 def miPrimerMetodo():
     nombre = "Diego"
     apellido = "García"
     print(nombre + apellido)
 miPrimerMetodo()
 
-pruebaCalculadora.sumar()
+cal.sumar()
 
 #CONDICIONALES
 
@@ -62,7 +61,13 @@ for elemento in coches:
 
 coches.append("Hyundai")
 coches.pop(3)
-coches.remove("Kia")
+
+alumnos = ["Cristina", "Victor", "Marta"]
+alumnos.insert(1, "Diego")
+del alumnos[:1]
+
+alumnos.sort()
+print(alumnos)
 
 #REPASO INPUT
 
