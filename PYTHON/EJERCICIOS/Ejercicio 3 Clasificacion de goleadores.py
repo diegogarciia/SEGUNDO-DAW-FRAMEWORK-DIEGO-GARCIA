@@ -14,5 +14,7 @@ goles.reverse()
 print(goles)
 
 print("El máximo goleador metió la cantidad de " + max(goles).__str__() + " goles")
-print("La cantidad de goles que metió el jugador menos goleador es de " + min(goles).__str__() + " goles")
+print("La cantidad de goles que metió el jugador menos goleador es de " + min(goles).__str__() + " goles\n")
+media = sum(goles) / len(goles)
+print("La media de goles marcados por jugador es de: " + media.__str__())
 
