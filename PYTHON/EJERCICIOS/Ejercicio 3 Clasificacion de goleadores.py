@@ -1,3 +1,5 @@
+import numpy as np
+
 goles = [22, 12, 19, 5, 40, 16]
 
 cantidadjugadores = len(goles)
@@ -18,3 +20,6 @@ print("La cantidad de goles que metió el jugador menos goleador es de " + min(g
 media = sum(goles) / len(goles)
 print("La media de goles marcados por jugador es de: " + media.__str__())
 
+#AHORA LA MEDIA CON NUMPY
+medianp = np.average(goles)
+print("La media de goles marcados por jugador es de: " + medianp.__str__())
