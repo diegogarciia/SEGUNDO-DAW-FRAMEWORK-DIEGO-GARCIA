@@ -23,3 +23,4 @@ print("La media de goles marcados por jugador es de: " + media.__str__())
 #AHORA LA MEDIA CON NUMPY
 medianp = np.average(goles)
 print("La media de goles marcados por jugador es de: " + medianp.__str__())
+

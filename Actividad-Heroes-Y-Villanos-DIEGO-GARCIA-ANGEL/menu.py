@@ -8,7 +8,6 @@ def menu():
 
 def gestionAulaDeHeroesYVillanos(opcion):
     pass
-
 def main():
     try:
         while True:
