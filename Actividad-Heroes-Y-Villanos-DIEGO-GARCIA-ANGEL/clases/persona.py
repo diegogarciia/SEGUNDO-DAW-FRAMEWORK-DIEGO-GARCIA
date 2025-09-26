@@ -6,6 +6,3 @@ class Persona:
         self.fecha_nacimiento = fecha_nacimiento
         self.identificador = identificador
         self.puntuacion_total = 0
-
-
-
